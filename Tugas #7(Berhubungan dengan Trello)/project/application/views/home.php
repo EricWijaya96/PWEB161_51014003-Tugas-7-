@@ -52,67 +52,63 @@
     </div>
     <!-- /.carousel -->
 
-<div id="mymodal" class="modal fade" role="dialog">
-  <div class="ppc" class="modal-dialog">
-    
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h2 class="ppt" class="modal-title">Welcome.</h2>
-      </div>
-      <div class="modal-body">
-        <p class="ppt2">We can have no progress without change, whether it be basketball or anything else.<br> -John Wooden</p>
-      </div>
-      <div class="modal-footer">
-      <center>
-        <button type="button" class="btn btn-default" data-dismiss="modal">
-          Tutup
-        </button>
-      </center>
-      </div>
-    </div>
 
-  </div>
-</div>
 
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
-		<hr id="about" class="featurette-divider">
     	<div  class="container marketing">
+    <br id="pemisah">
+    <hr id="about" class="featurette-divider">
 		
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
           <img class="img-circle" src="assets/img/HomePage/18560.jpg" width="140" height="140">
           
-          <h2><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Founder<br>
+          <h2 id="warnatulisan"><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Founder<br>
           <hr class="star-light">
           Gabriel Irfon E</h2>
           <p class="pe">I always wanted to be a basketball player. Nothing more, nothing less. <br>-Dirk Nowitzki</p>
-          <p><a data-toggle="modal" class="btn btn-lg btn-primary" href="#modal3" role="button">View details &raquo;</a></p>
+          <p><a data-toggle="modal" class="btn btn-lg btn-primary" href="#modal3" role="button">Lebih Lanjut &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" src="assets/img/HomePage/18559.jpg" width="140" height="140">
           
-          <h2><span class="glyphicon glyphicon-king" aria-hidden="true"></span> Ketua<br>
+          <h2 id="warnatulisan"><span class="glyphicon glyphicon-king" aria-hidden="true"></span> Ketua<br>
           <hr class="star-light">
-          
           Iprasetyo wicaksono</h2>
           <p class="pe">I don't know what I'm going to do tomorrow. I just know for sure I'm going to keep playing basketball. <br>-Kevin Durant</p>
-          <p><a data-toggle="modal" class="btn btn-lg btn-primary" href="#modal4" role="button">View details &raquo;</a></p>
+          <p><a data-toggle="modal" class="btn btn-lg btn-primary" href="#modal4" role="button">Lebih Lanjut &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" src="assets/img/HomePage/4.jpg" alt="Generic placeholder image" width="140" height="140">
           <h2>About UKM</h2>
           <hr class="star-light">
           <p class="pe">A team is like the five fingers on your hand. If you can get them all together, you have a fist. That's how I want you to play.<br> -Mike Krzyzewski</p>
-          <p><a data-toggle="modal" class="btn btn-lg btn-primary" href="#modal5" role="button">View details &raquo;</a></p>
+          <p><a data-toggle="modal" class="btn btn-lg btn-primary" href="#modal5" role="button">Lebih Lanjut &raquo;</a></p>
         </div ><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
+
+
         <br id="visi">
-      <!-- START THE FEATURETTES -->
+
+<blockquote>
+ <h2 class="warnatulisan" class="featurette-heading"><span class="glyphicon glyphicon-pawn" aria-hidden="true"></span> VISI <span class="text-muted">Every Person must have a clear vision!</span></h2>
+          <p class="lead">Mewujudkan mahasiswa STMIK Kharisma yang cerdas, ulet, kreatif, dinamis dan mampu bersaing dalam bidang olahraga dan akademik.</p>
+  <small>VISI<cite title="Source Title">OLEH GABRIEL IRFON E</cite></small>
+</blockquote>
+
+
+<blockquote class="blockquote-reverse">
+  <h2 class="featurette-heading"><span class="glyphicon glyphicon-pawn" aria-hidden="true"></span> Misi <span class="text-muted">For what you live?</span></h2>
+          <p class="lead">Memasyaratkan olahraga basket di Kampus - peningkatan kualitas dan kuantitas anggota - meningkatkan pengetahuan terhadap teknologi terbaru - penyelenggaran pelatihan keterampilan bagi anggota</p>
+  <small>MISI<cite title="Source Title">OLEH IPRASETYO WICAKSONO</cite></small>
+</blockquote>
+
+<!-- Visi misi yang lama -->
+      <!--<br id="visi"
 
       <hr  class="featurette-divider">
 
@@ -124,7 +120,7 @@
         <div class="col-md-5">
           <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" src="assets/img/HomePage/18560.jpg" alt="Generic placeholder image">
         </div>
-      </div>
+      </div> 
 
       <br id="misi">
       <hr   class="featurette-divider">
@@ -150,8 +146,8 @@
         <div class="col-md-5">
           <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" src="assets/img/HomePage/123.jpg" alt="Generic placeholder image">
         </div>
-      </div>
-
+      </div> -->
+<!--
 <br id="club1" >
       <hr class="featurette-divider">
 
@@ -197,11 +193,11 @@
                 </div>
         </div>
     </section>
-
+-->
     <hr class="featurette-divider">
 
       <!-- /END THE FEATURETTES -->
-
+<!--
 <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
          <div class="modal-content">
              <div class="close-modal" data-dismiss="modal">
@@ -277,7 +273,7 @@
              </div>
          </div>
      </div>
-
+-->
 
 <div>
 <div class="modal fade" id="modal3" tabindex="-1" role="dialog"
@@ -353,15 +349,6 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script src="assets/js/vendor/holder.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
-    <script>
-      $('#mymodal').modal('show');
-    </script>
+    
   </body> 
 </html>

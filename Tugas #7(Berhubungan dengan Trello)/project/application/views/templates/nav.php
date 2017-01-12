@@ -20,16 +20,15 @@
                   <ul class="dropdown-menu">
                     <li><a href="#"target="_blank">  Upcoming  </a></li>
                     <li><a href="#"target="_blank">  Upcoming  </a></li>
-                    <li><a href="#"></a></li>
                     <li role="separator" class="divider"></li>
-                    <li class="#">Sudah Lewat :</li>
-                    <li><a href="#"target="_blank">Pemilihan Ketua UKM</a></li>
+                    <li class="#"> Sudah Lewat </li>
+                    <li><a href="#" target="_blank">Pemilihan Ketua UKM</a></li>
                   </ul>
                 </li>
-        <li><a href="#club1"><span class="glyphicon glyphicon-equalizer" aria-hidden="true"></span> Kegiatan UKM</a></li>
-        <li><a href="#visi"><span class="glyphicon glyphicon-pawn" aria-hidden="true"></span> Visi</a></li>
-        <li><a href="#misi"><span class="glyphicon glyphicon-pawn" aria-hidden="true"></span> Misi</a></li>
-        <li><a href="#words"><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span> Words :)</a></li>
+        <li><a href="kegiatananggota"><span class="glyphicon glyphicon-equalizer" aria-hidden="true"></span> Kegiatan UKM</a></li>
+        <li><a href="map"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>  Lokasi Latihan</a></li>
+        <li><a href="video"><span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>  Video Latihan</a></li>
+        
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> Daftar<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
@@ -51,7 +50,8 @@
                 </li>
                </ul>
       <ul class="nav navbar-nav navbar-right">
-      	<li><a href="#about"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Pengurus</a></li>
+      	<li><a href="#pemisah"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Pengurus</a></li>
+        <li><a href="#visi"><span class="glyphicon glyphicon-pawn" aria-hidden="true"></span> VISI - MISI</a></li>
         <li><a href="Registrasi_Anggota">JOIN</a></li>
       </ul>
     </div>

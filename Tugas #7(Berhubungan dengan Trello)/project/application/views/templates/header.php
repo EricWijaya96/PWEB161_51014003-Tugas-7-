@@ -30,7 +30,44 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/carousel.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
+    <script>
+      $('#mymodal').modal('show');
+    </script>
   </head>
 <!-- NAVBAR
 ================================================== -->
+<!-- Pop Up -->
+<!-- <div id="mymodal" class="modal fade" role="dialog">
+  <div class="ppc" class="modal-dialog">
+    
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h2 class="ppt" class="modal-title">Welcome.</h2>
+      </div>
+      <div class="modal-body">
+        <p class="ppt2">We can have no progress without change, whether it be basketball or anything else.<br> -John Wooden</p>
+      </div>
+      <div class="modal-footer">
+      <center>
+        <button type="button" class="btn btn-default" data-dismiss="modal">
+          Tutup
+        </button>
+      </center>
+      </div>
+    </div>
+
+  </div>
+</div> -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="assets/js/vendor/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script>
+      $('#mymodal').modal('show');
+    </script>
   <body>
