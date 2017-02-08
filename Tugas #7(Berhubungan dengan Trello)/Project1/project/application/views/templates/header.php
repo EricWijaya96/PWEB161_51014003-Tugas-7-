@@ -7,19 +7,19 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="assets/favicon.ico">
+    <link rel="icon" href="<?= base_url()?>assets/favicon.ico">
 
     <title>Basket</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="<?= base_url()?>assets/css/bootstrap.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="<?= base_url()?>assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+    <script src="<?= base_url()?>assets/js/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -28,11 +28,9 @@
     <![endif]-->
 
     <!-- Custom styles for this template -->
-    <link href="assets/css/carousel.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <script>
-      $('#mymodal').modal('show');
-    </script>
+    <link href="<?= base_url()?>assets/css/carousel.css" rel="stylesheet">
+    <link href="<?= base_url()?>assets/css/style.css" rel="stylesheet">
+     <link href="<?= base_url()?>assets/css/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -61,13 +59,14 @@
 </div> -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script>window.jQuery || document.write('<script src="<?= base_url()?>assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="<?= base_url()?>assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="<?= base_url()?>assets/js/bootstrap-datetimepicker.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="<?= base_url()?>assets/js/locales/bootstrap-datetimepicker.fr.js" charset="UTF-8"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script src="assets/js/vendor/holder.min.js"></script>
+    <script src="<?= base_url()?>assets/js/vendor/holder.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
-    <script>
-      $('#mymodal').modal('show');
-    </script>
+    <script src="<?= base_url()?>assets/js/ie10-viewport-bug-workaround.js"></script>
+    
+    <script src="<?= base_url()?>assets/js/ajax.js"></script> 
   <body>

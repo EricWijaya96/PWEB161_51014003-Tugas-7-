@@ -1,12 +1,15 @@
-
+<center>
     <div  class="container marketing">
-	<br id="peta">
       <!-- START THE FEATURETTES -->
 
       <div class="row">
-        <div class="col-md-5">
+      <TABLE width="650px" height="200px">
+		<td >
+        <div class="col-lg-10">
 			<h2 class="featurette-heading">
+			 <legend>
 				<p> <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>  LOKASI</p>
+			</legend>	
 			</h2>
 			<p class="lead">Alamat UKM Basket STMIK Kharsima </p>
 			Jl. Teuku Umar Raya, Buloa, Tallo, Kota Makassar, Sulawesi Selatan<br/>
@@ -36,6 +39,8 @@
 			<!-- Map -->
 			
 		</div>
+		</td>
+	</TABLE>
       </div>
 
 	  <hr  class="featurette-divider">
@@ -50,5 +55,6 @@
 	</div>
     <!-- /.container -->
 
-
-  
+</center>
+  </body>
+</html>

@@ -1,4 +1,7 @@
 
+    <script>
+      $('#mymodal').modal('show');
+    </script>
     <!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
