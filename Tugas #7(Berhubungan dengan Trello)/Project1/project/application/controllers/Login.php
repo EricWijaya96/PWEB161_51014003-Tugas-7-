@@ -13,7 +13,11 @@ class Login extends CI_Controller {
 
 	public function index()
 	{
+		$this->load->view('templates/header.php');
+		$this->load->view('templates/nav2.php');
 		$this->load->view('login');
+		$this->load->view('templates/footer.php');
+		
 		
 	}
 

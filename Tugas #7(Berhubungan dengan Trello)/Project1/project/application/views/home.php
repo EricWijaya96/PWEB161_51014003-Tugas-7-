@@ -9,11 +9,10 @@
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="assets/img/HomePage/18025.jpg" alt="First slide">
+          <img class="first-slide" src="assets/img/HomePage/Gambar_1.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
               <h1 class="ssb">WELCOME</h1>
@@ -33,16 +32,7 @@
             </div>
           </div>
         </div>
-        <div class="item">
-          <img class="third-slide" src="assets/img/HomePage/1111.jpg" alt="Third slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1 class="ssb">Special Training</h1>
-              <p class="ssb">Liburan akan segera datang ! Tepatnya bulan desember mendatang kampus akan libur untuk 2 hingga 3 minggu, KDBC akan mengadakan spesial training bagi kalian yang liburannya hanya dirumah dan mau membuat kemampuan serta skill meningkat. So, tunggu apa lagi ?</p>
-              <p><a class="btn btn-lg btn-primary" href="Registrasi_Latihan_Khusus" role="button">Gabung latihan</a></p>
-            </div>
-          </div>
-        </div>
+       
       </div>
       <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>

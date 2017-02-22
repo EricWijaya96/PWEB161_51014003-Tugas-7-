@@ -7,9 +7,10 @@ class Map extends CI_Controller {
 	{
 
 		$this->load->view('templates/header');
-		$this->load->view('templates/nav');
+		$this->load->view('templates/nav2');
 		
 		$this->load->view('map');
+		$this->load->view('templates/footer');
 
 	}
 }

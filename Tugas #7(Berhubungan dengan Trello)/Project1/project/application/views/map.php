@@ -43,18 +43,3 @@
 	</TABLE>
       </div>
 
-	  <hr  class="featurette-divider">
-      <!-- /END THE FEATURETTES -->
-	
-      <!-- FOOTER -->
-      <br><br>
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2016 Company, Inc. &middot; </p>
-      </footer>
-	</div>
-    <!-- /.container -->
-
-</center>
-  </body>
-</html>

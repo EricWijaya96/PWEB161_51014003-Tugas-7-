@@ -31,6 +31,7 @@
     <link href="<?= base_url()?>assets/css/carousel.css" rel="stylesheet">
     <link href="<?= base_url()?>assets/css/style.css" rel="stylesheet">
      <link href="<?= base_url()?>assets/css/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">
+     <link rel="stylesheet" href="./assets/css/login-css/css/style.css">
   </head>
 <!-- NAVBAR
 ================================================== -->

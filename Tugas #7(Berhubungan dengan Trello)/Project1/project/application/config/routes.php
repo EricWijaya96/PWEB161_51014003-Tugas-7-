@@ -5,15 +5,18 @@ $route['default_controller'] = 'home';
 
 $route['Registrasi_Anggota'] = 'registrasi_anggota';
 
-$route['Registrasi_Latihan_Khusus'] = 'registrasi_latihan_khusus';
-
 $route['Gallery'] = 'gallery';
 
 $route['Map'] = 'map';
 
 $route['Video'] = 'video';
 
+$route['infokegiatan'] = 'infokegiatan';
+
+$route['facebook'] = 'facebook';
+
 $route['Login'] = 'login';
+$route['admin_kegiatan'] = 'admin_kegiatan';
 
 $route['User'] = 'user';
 $route['User/Profil'] = 'User/profil';

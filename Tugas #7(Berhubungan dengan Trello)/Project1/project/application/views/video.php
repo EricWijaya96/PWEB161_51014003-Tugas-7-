@@ -4,7 +4,7 @@
 	<br id="peta">
       <!-- START THE FEATURETTES -->
 	
-		
+
 	  <div class="row featurette">
         <div class="col-md-5">
 			<h2 class="featurette-heading">
@@ -23,17 +23,7 @@
 			</p>			
 		</div>
       </div>
-	  
 
-	  <hr  class="featurette-divider">
-      <!-- /END THE FEATURETTES -->
-	
-      <!-- FOOTER -->
-      <br><br>
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2016 Company, Inc. &middot; </p>
-      </footer>
 	</div>
     <!-- /.container -->
 
