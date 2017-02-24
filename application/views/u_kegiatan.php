@@ -1,5 +1,5 @@
 <section id="services">
-	<center>
+	<br><br><br><center>
 		<h1>Edit planning</h1>
         <br><br>
 	</center>
@@ -24,7 +24,7 @@
                 </div><br><br>
 
                 <div class="col-lg-3 col-lg-offset-3">
-                    <button type="submit" class="btn btn-primary" value="Simpan">Ubah</button>
+                    <button type="submit" class="btn btn-success" value="Simpan">Ubah</button>
                 </div>
 
             </fieldset>

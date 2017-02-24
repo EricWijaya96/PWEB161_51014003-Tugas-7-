@@ -18,7 +18,7 @@
               <h1 class="ssb">WELCOME</h1>
               <p class="ssb">Selamat datang di web UKM Kharisma Dream Basket Club (KDBC). <BR> Ini adalah website mengenai informasi dari ukm basket kharisma. <br>Disini anda dapat mendaftar untuk 
               menjadi anggota ukm, melihat informasi kegiatan ukm, serta mengetahui lebih dalam tentang ukm basket ! <br>Salam Atlit !</p>
-              <p><a class="btn btn-lg btn-primary" href="Registrasi_Anggota" role="button">Gabung Sekarang !</a></p>
+              <p><a class="btn btn-lg btn-primary" href="registrasi_anggota" role="button">Gabung Sekarang !</a></p>
             </div>
           </div>
         </div>

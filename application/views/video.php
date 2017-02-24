@@ -17,7 +17,7 @@
         <div class="col-md-5">
 			<p class="lead"> Panduan Dasar Permainan Bola Basket
 				<video width="640" height="480" controls>
-					<source src="assets/video/Panduan Dasar Permainan Bola Basket - YouTube.mkv" type="video/mp4">	
+					<source src="assets/video/Panduan Dasar Permainan Bola Basket - YouTube.mkv" type="video/mkv">	
 					Your browser does not support HTML5 video.
 				</video>
 			</p>			

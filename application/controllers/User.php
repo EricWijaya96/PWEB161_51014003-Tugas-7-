@@ -32,7 +32,7 @@ class User extends CI_Controller {
                 );
 		//print_r($data);
 		$this->load->view('templates/header');
-        $this->load->view('templates/nav');
+        $this->load->view('templates/nav2');
 		$this->load->view('user/profil',$data);	
 	}
 
@@ -59,7 +59,7 @@ class User extends CI_Controller {
 		
 		//print_r($data);
 		$this->load->view('templates/header');
-        $this->load->view('templates/nav');
+        $this->load->view('templates/nav2');
 		$this->load->view('user/edit_profil',$data);	
 	}
 
@@ -108,7 +108,7 @@ class User extends CI_Controller {
 		
 		//print_r($data);
 		$this->load->view('templates/header');
-        $this->load->view('templates/nav');
+        $this->load->view('templates/nav2');
 		$this->load->view('user/edit_foto',$data);	
 	}
 

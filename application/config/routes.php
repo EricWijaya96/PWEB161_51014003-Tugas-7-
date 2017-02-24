@@ -3,9 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 $route['default_controller'] = 'home';
 
-$route['Registrasi_Anggota'] = 'registrasi_anggota';
-
-$route['Gallery'] = 'gallery';
+$route['registrasi_anggota'] = 'registrasi_anggota';
 
 $route['Map'] = 'map';
 
@@ -13,7 +11,7 @@ $route['Video'] = 'video';
 
 $route['infokegiatan'] = 'infokegiatan';
 
-$route['facebook'] = 'facebook';
+$route['Facebook'] = 'facebook';
 
 $route['Login'] = 'login';
 $route['admin_kegiatan'] = 'admin_kegiatan';

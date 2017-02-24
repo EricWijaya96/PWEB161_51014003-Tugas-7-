@@ -1,5 +1,6 @@
 <section id="services">
     <center>
+<br><br><br>
         <h1>Tambah Kegiatan</h1>
     </center><br><br>
     <form action="<?php echo base_url(). 'admin_kegiatan/tambah_aksi'; ?>" method="post">
@@ -19,7 +20,7 @@
                 </div><br><br>
 
                 <div class="col-lg-3 col-lg-offset-3">
-                    <button type="submit" class="btn btn-primary" value="Tambah">Tambah</button>
+                    <button type="submit" class="btn btn-success" value="Tambah">Tambah</button>
                 </div>
             </fieldset>
             </div>

@@ -5,7 +5,7 @@
 <center>
 <TABLE Border='1' cellpadding='3' cellspacing='3'>
 <td width="650px" height="200px">
-<form class="form-horizontal" action="<?= base_url()?>Registrasi_Anggota/input_data" method="post"  enctype="multipart/form-data">
+<form class="form-horizontal" action="<?= base_url()?>registrasi_anggota/input_data" method="post"  enctype="multipart/form-data">
   <fieldset>
     <legend>REGISTRASI ANGGOTA</legend>
     

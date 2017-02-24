@@ -21,7 +21,7 @@ class Admin extends CI_Controller {
 		$result  = $this->m_peserta->selectAllUser();
 		$data['user'] = $result;
 		$this->load->view('templates/header');
-        $this->load->view('templates/nav');
+        $this->load->view('templates/nav2');
 		$this->load->view('admin/user/daftar_user',$data);
         
 	}
@@ -48,7 +48,7 @@ class Admin extends CI_Controller {
         
         //print_r($data);
         $this->load->view('templates/header');
-        $this->load->view('templates/nav');
+        $this->load->view('templates/nav2');
         $this->load->view('admin/user/profil',$data);    
     }
 
@@ -75,7 +75,7 @@ class Admin extends CI_Controller {
         
         //print_r($data);
         $this->load->view('templates/header');
-        $this->load->view('templates/nav');
+        $this->load->view('templates/nav2');
         $this->load->view('admin/user/edit_profil',$data);    
     }
 
@@ -124,7 +124,7 @@ class Admin extends CI_Controller {
 		
 		//print_r($data);
 		$this->load->view('templates/header');
-        $this->load->view('templates/nav');
+        $this->load->view('templates/nav2');
 		$this->load->view('admin/user/edit_foto',$data);	
 	}
 

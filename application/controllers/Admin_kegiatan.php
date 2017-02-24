@@ -12,10 +12,9 @@ class Admin_kegiatan extends CI_Controller {
 
 	public function index()
 	{
-		if(!isset($_SESSION['login'])) redirect(base_url().'admin');
 		$data['kegiatan'] = $this->m_data->tampil_kegiatan()->result();
 		$this->load->view('templates/header.php');
-		$this->load->view('templates/nav.php');
+		$this->load->view('templates/nav2.php');
 		$this->load->view('admin_kegiatan',$data);
 		$this->load->view('templates/footeradmin.php');
 	}
@@ -30,7 +29,7 @@ class Admin_kegiatan extends CI_Controller {
 	function tambah()
 	{
 	$this->load->view('templates/header.php');
-	$this->load->view('templates/nav.php');
+	$this->load->view('templates/nav2.php');
 	$this->load->view('t_kegiatan');
 	$this->load->view('templates/footeradmin.php');
 	}
@@ -53,7 +52,7 @@ class Admin_kegiatan extends CI_Controller {
 	$where = array('id' => $id);
 	$data['kegiatan'] = $this->m_data->edit_data($where,'kegiatan')->result();
 	$this->load->view('templates/header.php');
-	$this->load->view('templates/nav.php');
+	$this->load->view('templates/nav2.php');
 	$this->load->view('u_kegiatan',$data);
 	$this->load->view('templates/footeradmin.php');
 	}
